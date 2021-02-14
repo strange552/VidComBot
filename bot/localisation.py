@@ -18,24 +18,24 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "Hello, \n\nThis is a @Madara_TheBot <b>[Telegram Video Compress Bot]</b> \n\n<b>Send me any Telegram big file I Will compress to small file</b> \n\n/help for more details... \n\nSupport Group :@AnimeBotSupportGroup"
    
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "📥 Downloading 📥 \n"
+    DOWNLOAD_START = "<i>📥 Downloading.. 📥</i> \n"
     
-    UPLOAD_START = "📤 Uploading 📤 \n"
+    UPLOAD_START = "<i>📤 Uploading.. 📤</i> \n"
     
-    COMPRESS_START = "📀 Trying to compress... 📀"
+    COMPRESS_START = "<b>Compressing..</b>"
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}"
+    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}\n\n@AnimeBotSupportGroup|| @M0viesandSeries"
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
 
@@ -47,7 +47,7 @@ class Localisation:
     
     SAVED_RECVD_DOC_FILE = "✅ Downloaded Successfully."
     
-    CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = "Compressed Through @Madara_TheBot"
     
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     
@@ -59,7 +59,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Dx_Support"
+        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@AnimeBotSupportGroup\n\n<b>Source Code Avaialable On <a href="https://github.com/Jijinr/VidComBot">Github</a></b>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
